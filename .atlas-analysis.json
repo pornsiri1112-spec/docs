@@ -1,20 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "name": "AIM Korea-Thailand",
+  "projectType": "saas",
+  "projectName": "AIM Korea-Thailand",
+  "projectDescription": "A one-stop platform that helps Korean brands enter the Thai e-commerce market — handling import compliance, Thai FDA registration, trademark filing, warehousing, Shopee marketplace management, and digital marketing.",
   "theme": "almond",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
-  "navbar": {
-    "primary": {
-      "type": "button",
-      "label": "Get Started",
-      "href": "/onboarding"
-    }
-  },
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -102,5 +93,30 @@
         ]
       }
     ]
-  }
+  },
+  "keyFeatures": [
+    "Importer of Record (IOR) — legal Thai entity for importing without establishing a local company",
+    "Thai FDA registration for cosmetics, food supplements, and medical devices",
+    "Trademark registration via Thai DIP and Madrid Protocol",
+    "International logistics (air, sea FCL/LCL, courier) from Korea to Thailand",
+    "Bonded warehouse and general fulfillment center in Bangkok",
+    "Shopee Thailand seller account management and product listing optimization",
+    "Shopee campaign management (Flash Sale, Mega Campaigns, Brand Day)",
+    "Digital marketing: TikTok, Facebook, Instagram, LINE OA, KOL/influencer campaigns",
+    "ASEAN-Korea FTA (AKFTA) and RCEP tariff optimization",
+    "End-to-end brand onboarding in 45–60 days"
+  ],
+  "publicApiSurface": [
+    "IOR Service (Importer of Record)",
+    "Thai FDA Cosmetics Notification",
+    "Thai FDA Food Supplement Registration",
+    "Trademark Registration (DIP / Madrid Protocol)",
+    "International Freight Forwarding (Air / Sea LCL / Sea FCL)",
+    "Bonded Warehouse Storage",
+    "Shopee 3PF Fulfillment",
+    "Shopee Seller Center Management",
+    "KOL & Influencer Campaign Management",
+    "TikTok Shop Management",
+    "Monthly Brand Retainer"
+  ]
 }
